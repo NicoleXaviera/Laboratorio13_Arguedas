@@ -21,16 +21,19 @@ namespace Laboratorio13_Arguedas.Controllers
         {
             //Request=>Model
             Course course = new Course();
-            course.Name = request.Name,
+            course.Name = request.Name;
             course.Credit = request.Credit;
             course.Activo = true;
-        course.Courses.Ad(request);
-            context.SaveChanges;
+    //   course.Courses.Add(request);
+      //     context.SaveChanges;
 
         }
 
         [HttpDelete]
-        public void Insert(CourseInsertRequest request)
+        public void Delete(CourseDeleteRequest request)
+        {
+
+        }
 
     }
 }
