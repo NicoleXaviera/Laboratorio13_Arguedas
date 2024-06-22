@@ -6,8 +6,6 @@
         public string Name { get; set; }
         public int Credit { get; set; }
         public bool Activo { get; set; }
-        public ICollection<Enrollment> Enrollments { get; set; }
-
 
     }
 }
